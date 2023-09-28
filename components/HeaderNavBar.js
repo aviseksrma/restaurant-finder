@@ -53,7 +53,7 @@ function HeaderNavBar() {
           />
         </div>
         <div>
-          {session?.user ? (
+          {session.user ? (
             <>
               <Image
                 src={session.user.image}
